@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+    <!DOCTYPE html>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index3.css">
+
+    <title>Andy Gimma- Developer</title>
+</head>
+
+
+<body>
+
+
+
+<div class='nav navbar navbar-inverse'>
+    <div class='navbar-inner nav-collapse' style="height: auto;">
+        <h1 class="title">Andy Gimma | Web & Mobile Applications</h1>
+
+        <ul class="nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page One</a></li>
+        <li><a href="#">Page Two</a></li>
+        </ul>
+        <ul class="nav">
+        <li class="dropdown">
+        <a href="#"
+        class="dropdown-toggle"
+        data-toggle="dropdown">
+        Services
+        <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+        <li><a href="#">Web Design</a></li>
+        <li><a href="#">Web development</a></li>
+        <li><a href="#">Wordpress Theme development</a></li>
+        </ul>
+        </li>
+        </ul>
+
+
+        <!--<form class="form-search pull-right">-->
+        <!--<input type="text" class="input-medium search-query">-->
+        <!--<button type="submit" class="btn">Search</button>-->
+        <!--</form>-->
+    </div>
+</div>
+
+
+<div class="container">
+
+
+    <div id='content' class='row-fluid work'>
+        <div class='span12 main'>
+            <div class="leaderboard span12">
+                <div id="myCarousel" class="carousel container slide leaderboard span12">
+                    <!-- Dot Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Items -->
+                    <!-- Items -->
+                    <div class="carousel-inner">
+                        <div class="item active"><!-- class of active since it's the first item -->
+                            <img src="../images/Crisis%20Cleanup.png" alt="" />
+                            <div class="carousel-caption">
+                                <p><a href="http://www.crisiscleanup.org">Go To Website</a></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="../images/Aphorme.png" alt="" />
+                            <div class="carousel-caption">
+                                <p><a href="#">Go To Website</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../images/CrisisCleanup2.png" alt="" />
+                            <div class="carousel-caption">
+                                <p><a href="#">Go To Website</a></p>
+                            </div>
+                        </div>
+                    </div><!-- /.carousel-inner -->
+                    <!-- Navigation -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>   <!--End carousel-->
+
+            </div>  <!--End leaderboard-->
+        </div>      <!--End main-->
+        <!--</div>   &lt;!&ndash;End work&ndash;&gt;-->
+
+
+        <h1 class="services">Services</h1>
+
+        <div class="container cf span11">
+
+            <div class="box box-style-1 span4">
+                <h3>Mapping Applications</h3>
+                <img src="../images/Demo%20Map.png" class="img-polaroid span10 icon">
+                <br><p class="description">nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse</p>
+            </div>
+            <div class="box box-style1 span4 pull-right">
+                <h3>Database Management</h3>
+                <img src="../images/database.png" class="img-polaroid span10 icon">
+                <br><p class="description">nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse</p>
+            </div>
+            <div class="box box-style1 span4 pull-right">
+                <h3>Mapping Applications</h3>
+                <img src="../images/Demo%20Map.png" class="img-polaroid span10 icon">
+                <br><p class="description">nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse</p>
+            </div>
+        </div>
+
+        <!--<div class="footer">-->
+        <!--contact info: andy.n.gimma@gmail.com-->
+        <!--</div>-->
+
+    </div>   <!--End work-->
+
+</div> <!--End Container-->
+
+<div class="container2">
+
+    <div class="page-header">
+        <h1 class="contact">Contact Me</h1>
+    </div>
+
+
+    <form method="POST" action="../php/form.php" class="span12 form-horizontal">
+        <div class="control-group">
+            <label class="control-label" for="input1">Name</label>
+            <div class="controls">
+                <input type="text" name="contact_name" id="input1" placeholder="Your name">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="input2">Email Address</label>
+            <div class="controls">
+                <input type="text" name="contact_email" id="input2" placeholder="Your email address">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="input3">Message</label>
+            <div class="controls">
+                <textarea name="contact_message" id="input3" rows="8" class="span5" placeholder="The message you want to send to me."></textarea>
+            </div>
+        </div>
+        <div class="form-actions">
+            <input type="hidden" name="save" value="contact">
+            <button type="submit" class="btn btn-primary btn-large">Send</button>
+        </div>
+
+
+    </form>
+
+</div>
+
+
+<!--</div> &lt;!&ndash;End Container&ndash;&gt;-->
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap-carousel.js"></script>
+<script src="../js/bootstrap-dropdown.js"></script>
+
+
+
+</body>
+
+
+</html>

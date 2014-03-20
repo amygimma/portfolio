@@ -1,0 +1,93 @@
+
+/*************/
+/***//*Navbar*/
+/*************/
+
+/*.navbar-fixed-top{*/
+/*margin:0px 0px 50px 0px;*/
+/*z-index: 1;*/
+/*width: 100%;*/
+/*overflow:hidden;*/
+
+/*}*/
+/*.nav{*/
+    /**/
+/*}*/
+
+
+
+
+/**************************/
+
+#nav
+{
+    background-color: #282828;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+
+}
+
+
+
+#nav ul
+{
+    margin: 0;
+}
+
+#nav li
+{
+    display: inline-block;
+}
+
+#nav a
+{
+    position: relative;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+#nav a:hover
+{
+    color: #fff !important;
+}
+
+
+.title{
+    color:whitesmoke;
+}
+
+
+/**********/
+/*container */
+/***********/
+
+
+/* padding for in-page bookmarks and fixed navbar */
+.page-header {
+    padding-top: 4em;
+    margin-top:200px;
+
+}
+
+.wrap{
+    width: 90%;
+    background: url('../images/website-textures-07.jpg');
+    margin:auto;
+    margin-top: 9em;
+}
+
+
+.subtitle .goto{
+    padding:2em;
+}
+
+.sidebar li{
+    color:lightblue;
+    list-style: none;
+}

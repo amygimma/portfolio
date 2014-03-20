@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index4.css">
+
+    <title>Portfolio Example</title>
+</head>
+
+
+<body>
+
+
+<!--<div data-spy="affix" data-offset-top="200" class='nav navbar navbar-inverse'>-->
+<div class='nav navbar navbar-inverse clearfix' id="nav">
+    <div class='navbar-inner nav-collapse' style="height: auto;">
+        <h1 class="title"><a href="index.html">Portfolio Example</a></h1>
+
+        <ul class="nav">
+            <li><a href="index.html#Examples">Examples</a></li>
+            <li><a href="index.html#Services">Services</a></li>
+            <li><a href="index.html#About">About</a></li>
+            <li><a href="index.html#Contact">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+
+
+        </ul>
+
+    </div>
+</div>   <!--End nav-->
+
+
+<div class="container-fluid container page-header wrap">
+    <div class="row-fluid">
+
+        <div class="span8 content">
+
+            <h1 class="subtitle"><a href="http://www.crisiscleanup.org">Crisiscleanup.org</a></h1>
+            <br><img src="../images/Demo%20Map.png" class="img-polaroid span12"> <br>
+
+            <br><p class="goto"><a href="http://www.crisiscleanup.org">Go to Website</a></p>
+
+            <!--Body content-->
+        </div>
+
+        <div class="span3 portfolio">
+            <!--Sidebar content-->
+
+            <div class="sidebar">
+                <ul>
+                    <li>Project:</li>
+                    <li class=describe>Mapping Application</li>
+                    <li>Description:</li>
+                    <li class=describe>nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse   commodo consequat. </li>
+                </ul>
+            </div> <!--End sidebar-->
+        </div>   <!--End portfolio-->
+
+    </div>  <!--End row-fluid-->
+</div> <!--End wrap-->
+
+<div class="container-fluid container page-header wrap">
+    <div class="row-fluid">
+
+        <div class="span8 content">
+
+            <h1 class="subtitle"><a href="http://www.crisiscleanup.org">Crisiscleanup.org</a></h1>
+            <br><img src="../images/Demo%20Map.png" class="img-polaroid span12">
+
+            <br><p class="goto"><a href="http://www.crisiscleanup.org">Go to Website</a></p>
+
+            <!--Body content-->
+        </div>
+
+        <div class="span3 portfolio">
+            <!--Sidebar content-->
+
+            <div class="sidebar">
+                <ul>
+                    <li>Project:</li>
+                    <li class=describe>Mapping Application</li>
+                    <li>Description:</li>
+                    <li class=describe>nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse   commodo consequat. </li>
+                </ul>
+            </div> <!--End sidebar-->
+        </div>   <!--End portfolio-->
+
+    </div>  <!--End row-fluid-->
+</div> <!--End wrap-->
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap-carousel.js"></script>
+<script src="../js/bootstrap-dropdown.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+
+</html>
